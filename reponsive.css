@@ -461,6 +461,22 @@ font-size: 15px;
     font-size: 30px;
     color: #fff;
 }
+.content__6-box-2 
+{
+    display: none;
+}
+.content__6-box-3
+{
+    display: none;
+}
+.content__6-box 
+{
+    width: 100%;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 400px;
+}
 }
 @media(max-width:400px){
     .content_-2-about 
@@ -559,6 +575,7 @@ font-size: 15px;
     flex-direction: column;
     text-align: center;
 }
+
 }
 @media(min-width:601px) and (max-width:1020px) {
     .header__nav
@@ -914,7 +931,22 @@ font-size: 15px;
     margin-right: 40px;
     list-style: none;
     text-align: center;
+    margin-bottom: 40px;
 }
+.content__6-box-2 
+   {
+       display: none;
+   }
+   .content__6-box 
+   {
+       width: 50%;
+       padding: 20px;
+       margin-left: 20px;
+       margin-right: 20px;
+       height: 400px;
+   }
+
+
 }
 @media(min-width:1021px){
     .slider__about 
@@ -944,7 +976,10 @@ font-size: 15px;
 {
     width: 300px;
 }
-
+.content__6-heading 
+{
+    width: 300px;
+}
 }
 @media(min-width:1151px){
     .content__10-flex  
