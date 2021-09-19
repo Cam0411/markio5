@@ -65,6 +65,15 @@
     padding-top: 7px;
     color: #fff;
     cursor: pointer;
+    transition: 0.7s;
+}
+.header__nav li .header__icon:hover 
+{
+    transform: scale(-1);
+}
+.header__nav li .header__icon-2:hover 
+{
+    transform: scale(-1);
 }
 .header__nav li .header__icon-2 
 {
@@ -78,10 +87,11 @@
     margin-left: -27px;
     color: #fff;
     cursor: pointer;
+    transition: 0.4s;
 }
 .header__nav li .header__icon:hover 
 {
-    color: #1c262f;
+    color: #212d37;
 }
 .header__nav li .header__icon-2:hover 
 {
@@ -272,7 +282,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    cursor: pointer;
 }
+
 .content__box-1 
 {
     background: #1c262f;
@@ -400,6 +412,7 @@
     align-items: center;
     flex-direction: column;
     padding: 20px;
+    cursor: pointer;
 }
 .content__3-about 
 {
@@ -571,6 +584,11 @@
   
     margin-right: 50px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+.content__5-counter:hover 
+{
+    transform: scale(1.02);
 }
 .content__5-counter i  
 {
@@ -595,7 +613,7 @@
 }
 #content__6 
 {
-    height: 800px;
+    height: 700px;
     background: #1c262f;
     display: flex;
     justify-content: center;
@@ -663,6 +681,12 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      cursor: pointer;
+  }
+  .content__6-box:hover 
+  {
+      transform: scale(1.02);
+      box-shadow: 5px 5px 0px 0px #02dcb3;
   }
   .content__6-sub-text 
   {
@@ -709,7 +733,7 @@
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #01dbb4;
   }
   
   /* Caption text */
@@ -757,8 +781,12 @@
   }
   
   @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+    opacity: .4;
+     transform: translateX(-100%)
+    }
+    to {opacity: 1;
+        transform: translateX(0%);}
   }
   
   @keyframes fade {
@@ -974,6 +1002,11 @@
     margin-right: 100px;
     list-style: none;
     text-align: center;
+    cursor: pointer;
+}
+.content__9-in-list:hover 
+{
+    transform: scale(1.02);
 }
 .content__9-list  i 
 {
@@ -1035,6 +1068,7 @@
 .content__10-icon i 
 {
     margin-right: 10px;
+    cursor: pointer;
 }
 .content__10-icon i:hover  
 {
@@ -1046,6 +1080,7 @@
      padding: 20px;
      margin-left: 30px;
      margin-right: 30px;
+     cursor: pointer;
 }
 .content__10-list li 
 {
