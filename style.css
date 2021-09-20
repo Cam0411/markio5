@@ -110,11 +110,12 @@
      height: 210px;
      border-radius: 5px;
     display: none;
-    animation: fadeIn ease-in-out 0.4s;
+    animation: fadeIn ease-in-out 0.25s;
     left: -10%;
     z-index: 1;
     text-align: left;
     line-height: 28px;
+    transform-origin: top left;
 }
 
 .header__sub-nav li 
