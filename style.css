@@ -148,7 +148,7 @@
     left: 0;
     z-index: 1;
     display: none;
-    animation: fadeIn ease-in-out 0.4s;
+    animation: fadeIn3 ease-in-out 0.4s;
 }
 .modal .modal__content 
 {
